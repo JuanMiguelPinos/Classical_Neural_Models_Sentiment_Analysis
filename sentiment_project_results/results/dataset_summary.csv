@@ -1,0 +1,4 @@
+split,rows,negative,neutral,positive,duplicates,missing_texts,mean_words,p95_words,urls,mentions,hashtags,emojis,uppercase_words
+train,45615,7093,20673,17849,29,0,19.23744382330374,27.0,93,13429,8526,0,11755
+validation,2000,312,869,819,0,0,19.4445,27.0,5,621,352,0,517
+test,12284,3972,5937,2375,0,0,14.859492022142625,24.0,376,4997,4825,809,2750

@@ -1,0 +1,11 @@
+test,model_a,model_b,value_1,value_2,p_value,p_value_adjusted
+bootstrap_macro_f1,TF-IDF + LinearSVC,,0.599569924399656,0.6160191920696508,,
+bootstrap_macro_f1,TextCNN ensemble,,0.580530169316157,0.5980568711316423,,
+bootstrap_macro_f1,BiGRU ensemble,,0.5908789142077662,0.6090599404643395,,
+bootstrap_macro_f1,BERTweet ensemble,,0.7102961057609044,0.7263401346449317,,
+mcnemar_accuracy,TF-IDF + LinearSVC,TextCNN ensemble,1513.0,1353.0,0.0029712786880509616,0.01782767212830577
+mcnemar_accuracy,TF-IDF + LinearSVC,BiGRU ensemble,1376.0,1329.0,0.37645555036180023,1.0
+mcnemar_accuracy,TF-IDF + LinearSVC,BERTweet ensemble,1337.0,2635.0,8.198071136183863e-96,4.918842681710318e-95
+mcnemar_accuracy,TextCNN ensemble,BiGRU ensemble,1088.0,1201.0,0.019214236303520277,0.11528541782112167
+mcnemar_accuracy,TextCNN ensemble,BERTweet ensemble,1366.0,2824.0,1.5846685861752473e-114,9.508011517051483e-114
+mcnemar_accuracy,BiGRU ensemble,BERTweet ensemble,1313.0,2658.0,6.57324139833378e-103,3.943944839000267e-102
